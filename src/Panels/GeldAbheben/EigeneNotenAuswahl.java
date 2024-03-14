@@ -609,6 +609,8 @@ public void paintComponent(Graphics g){
 
     }
 
+    //Hier soll später die pin eingabe aufgerufen werden wenn der User enter drückt
+    
     @Override
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_ENTER){
